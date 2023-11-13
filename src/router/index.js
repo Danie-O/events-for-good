@@ -24,7 +24,7 @@ const router = createRouter({
       component: AboutView
     },
     {
-      path: '/*', 
+      path: "/:catchAll(.*)", 
       name: 'not-found',
       component: NotFoundView
     }
