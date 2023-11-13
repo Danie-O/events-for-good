@@ -1,3 +1,10 @@
+<script setup></script>
+
 <template>
-    <h1>Page Not Found</h1>
+    <div class="relative">
+        <div>
+            <h2>Oops! The page you tried to access cannot be found!</h2>
+            <button @click="$router.back()">Go Back</button>
+        </div>
+    </div>
 </template>
